@@ -1,1 +1,27 @@
 /* Just clear it */
+/* CSS Variables */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto&display=swap');
+:root {
+    --primary-font: 'Inter', sans-serif;
+    --secondary-font: 'Roboto', cursive;
+    --primary-color: #B2D6FF; /* Blue */
+  }
+  
+  /* Global styles */
+body {
+    font-family: var(--primary-font);
+  }
+  
+/* Navbar styles */
+.navbar {
+    background-color: var(--primary-color);
+  }
+  
+  .navbar a {
+    color: white;
+  }
+  
+  .navbar a:hover {
+    color: #ffcc00; /* Optional: Yellow hover for better UI */
+  }
+  
