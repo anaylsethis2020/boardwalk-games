@@ -25,3 +25,22 @@ body {
     color: #ffcc00; /* Optional: Yellow hover for better UI */
   }
   
+  /* === Services Section Styles === */
+
+/* Match image and content height */
+.card.h-100 img {
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  /* Align price text to bottom and emphasize it */
+  .card .text-end.fw-semibold {
+    margin-top: auto;
+  }
+  
+  /* Make sure card content fills space vertically */
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
